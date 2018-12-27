@@ -77,9 +77,9 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
         - T(n-1) = 2T(n-2) + 1 ②
         - so T(n) = 4T(n-2) + 3
         - and T(n) = 8T(n-3) + 7
-        - generalize: <img src="https://latex.codecogs.com/gif.latex?T(n)&space;=&space;2^kT(n-k)&space;&plus;&space;(2^k&space;-&space;1)" title="T(n) = 2^kT(n-k) + (2^k - 1)"/><br>
+        - generalize: <img src="https://latex.codecogs.com/gif.latex?T(n)=2^kT(n-k)&plus;(2^k-1)" title="T(n)=2^kT(n-k)+(2^k-1)" />
         - and T(1) = 1 (by substituding k using n-1)
-        - so <img src="https://latex.codecogs.com/gif.latex?T(n)&space;=&space;2^n&space;-&space;1" title="T(n) = 2^n - 1"/><br>
+        - so <img src="https://latex.codecogs.com/gif.latex?T(n)=2^n-1" title="T(n)=2^n-1"/><br>
 - Eg: Insertion Sort(not recursive)
     - we can analyze how long wach iteration of the loop takes
     - Key observation:
@@ -87,12 +87,36 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
     - First iteration of the loop: 0 swap required(since first element is trivially sorted)
     - Last iteration of the loop: at most n-1 swaps required 
     - In general, k-th iteration of the loop: at most k-1 swaps required
-    - so the total number of swaps = <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^ni&space;-&space;1=\frac{n(n-1)}{2}" title="\sum_{i=0}^ni - 1=\frac{n(n-1)}{2}" />
-
-
+    - so the total number of swaps is <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^ni-1=\frac{n(n-1)}{2}" title="\sum_{i=0}^ni-1=\frac{n(n-1)}{2}" />
 
 
 ### 1.2 Asymptotics and Divide-and-Conquer
+#### Asymptotic Bounds
+- ![asymptotic bounds](https://github.com/tristaaa/algorithmslearn/blob/master/pics/asymptotic%20bounds.png)
+- we want to focus on the functional form of the algorithm's running time and not on the details
+- one mathematically precise way to do this is called the **Big-Oh notation**
+    - a way of comparing two functions just on their growth rate and not on their details
+    - **Big-Oh** is like less than equal to for function (≤)
+    - Eg, we can say the logn function is Big-Oh of the 2^n function because logn grows slowly than 2^n
+- the converse of the **Big-Oh** is the **Big-Omega notation**
+     - which is like greater than equal to (≥)
+- Note: O(f(n)) is a set 
+    - like O(n) is the set of all function that do not grow faster than n
+- Eg:(note that constant doesn't matter)
+    - some elements of O(n²)
+        - 2n² ∈ O(n²)
+        - 100n² + n + 1 ∈ O(n²)
+        - n ∈ O(n²)
+    - some elements of Ω(n²)
+        - 2n² ∈ Ω(n²)
+        - 1/1000n² - n ∈ Ω(n²)
+        - n³ ∈ Ω(n²)
+    - and the complexity of insertion sort
+        - T(n) = ½n² + ½n
+        - T(n) ∈ O(n²)
+        - so insertion sort has a runtime of O(n²)
+
+
 
 ### 1.3 Binary Search and Mergesort
 
