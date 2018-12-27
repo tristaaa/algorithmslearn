@@ -31,7 +31,24 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
     - solve a problem on bigger datasets using your knowledge of how to solve it on smaller ones
 - it's a top dowm view to take the big problem, do a bit of reduction and get to a slightly smaller problem and continue this way until you get to a really small problem
 - it embodies the proof technique of Mathematical Induction
-- Eg: Towers of Hanoi
+- Eg(top down): Towers of Hanoi
+    - in a temple in Thailand, there are three pegs
+    - one of the pegs contains 64 disks of decresing size(largest disk at the bottom)
+    - the Buddist monks try to move all the disks on one peg to another, say the third peg
+    - Rules: can only move one disk at a time & can never put a bigger disk on the top of a smaller one
+
+    - Solution: 
+        - think recursively, if you want to solve the problem on 64 disks, let's reduce it to solving the problem on 63 disks
+        - Move top n-1 disks from rod A to rod B
+            - imagine moving 63 disks from the first pegs to the second peg using the way we figured out for sovling the problem on 63 disks
+        - Move disk 1 from rod A to rod C
+            - once we done that, move the largest disk from peg one to peg three
+        - Move the n-1 disks from rod B to rod C
+            - reuse the procedure of moving the 63 disks from peg one to peg two
+- Eg(bottom up): Insertion Sort
+    - 
+
+
 
 
 ### 1.2 Asymptotics and Divide-and-Conquer
