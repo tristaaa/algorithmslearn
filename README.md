@@ -87,7 +87,7 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
     - First iteration of the loop: 0 swap required(since first element is trivially sorted)
     - Last iteration of the loop: at most n-1 swaps required 
     - In general, k-th iteration of the loop: at most k-1 swaps required
-    - so the total number of swaps = <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^ni&space;-&space;1=frac{n(n-1)}{2}" title="\sum_{i=0}^ni - 1=frac{n(n-1)}{2}" />
+    - so the total number of swaps = <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^ni&space;-&space;1=\frac{n(n-1)}{2}" title="\sum_{i=0}^ni - 1=\frac{n(n-1)}{2}" />
 
 
 
