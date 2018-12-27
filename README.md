@@ -1,17 +1,23 @@
 # algorithmslearn 
 
-[| Basic Algorithm Design and Data Structures](https://github.com/tristaaa/algorithmslearn/blob/master/README.md#-python-basic)<br>
-&ensp;&ensp;[- Incremental Algorithm Design](https://github.com/tristaaa/learnpy/blob/master/README.md#11-introduction-to-python)<br>
-&ensp;&ensp;[- Asymptotics and Divide-and-Conquer](https://github.com/tristaaa/learnpy/blob/master/README.md#12-core-elements-of-programs)<br>
-&ensp;&ensp;[- Binary Search and Mergesort](https://github.com/tristaaa/learnpy/blob/master/README.md#12-core-elements-of-programs)<br>
-[| Design Paradigms: Dynamic Programming and Greedy Algorithms](https://github.com/tristaaa/learnpy/blob/master/README.md#-simple-program)<br>
-[| Graph Algorithms: Traversals and Spanning Trees](https://github.com/tristaaa/learnpy/blob/master/README.md#-simple-program)<br>
-[| Shortest Paths and NP-completeness](https://github.com/tristaaa/learnpy/blob/master/README.md#-simple-program)<br>
+[| Basic Algorithm Design and Data Structures](https://github.com/tristaaa/algorithmslearn#-basic-algorithm-design-and-data-structures)<br>
+&ensp;&ensp;[- Incremental Algorithm Design](https://github.com/tristaaa/algorithmslearn#11-incremental-algorithm-design)<br>
+&ensp;&ensp;[- Asymptotics and Divide-and-Conquer](https://github.com/tristaaa/algorithmslearn#12-asymptotics-and-divide-and-conquer)<br>
+&ensp;&ensp;[- Binary Search and Mergesort](https://github.com/tristaaa/algorithmslearn#13-binary-search-and-mergesort)<br>
+&ensp;&ensp;[- Introduction to Probability](https://github.com/tristaaa/algorithmslearn#14-introduction-to-probability)<br>
+&ensp;&ensp;[- Quicksort](https://github.com/tristaaa/algorithmslearn#15-quicksort)<br>
+&ensp;&ensp;[- Priority Queues](https://github.com/tristaaa/algorithmslearn#16-priority-queues)<br>
+&ensp;&ensp;[- Binary Search Trees](https://github.com/tristaaa/algorithmslearn#17-binary-search-trees)<br>
+&ensp;&ensp;[- Hashing](https://github.com/tristaaa/algorithmslearn#18-hashing)<br>
+&ensp;&ensp;[- Homework1](https://github.com/tristaaa/algorithmslearn#19-homework1)<br>
+[| Design Paradigms: Dynamic Programming and Greedy Algorithms](https://github.com/tristaaa/algorithmslearn#-design-paradigms-dynamic-programming-and-greedy-algorithms)<br>
+[| Graph Algorithms: Traversals and Spanning Trees](https://github.com/tristaaa/algorithmslearn#-graph-algorithms-traversals-and-spanning-trees)<br>
+[| Shortest Paths and NP-completeness](https://github.com/tristaaa/algorithmslearn#-shortest-paths-and-np-completeness)<br>
 
 
 
 ---
-Most From Edx Course Named **Algorithm Design and Analysis** PennX: SD3x  Taught by Sampath Kannan
+Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath Kannan
 
 ## | Basic Algorithm Design and Data Structures
 ### 1.1 Incremental Algorithm Design
