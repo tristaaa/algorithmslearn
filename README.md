@@ -22,18 +22,16 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
 ## | Basic Algorithm Design and Data Structures
 ### 1.1 Incremental Algorithm Design
 #### Why learn Algorithms
-- 
-    - reason about whether your logic is correct
-    - and how fast the algorithm is going to be before you actucally code it up in a program
-    - once we start thinking abstractly, we notice commonalities between many different problems
+- reason about whether your logic is correct
+- and how fast the algorithm is going to be before you actucally code it up in a program
+- once we start thinking abstractly, we notice commonalities between many different problems
 
 #### Algorithm Design
-- 
-    - Fundamental idea in algorithm design:
-        - solve a problem on bigger datasets using your knowledge of how to solve it on smaller ones
-    - it's a top dowm view to take the big problem, do a bit of reduction and get to a slightly smaller problem and continue this way until you get to a really small problem
-    - it embodies the proof technique of Mathematical Induction
-    - Eg: Towers of Hanoi
+- Fundamental idea in algorithm design:
+    - solve a problem on bigger datasets using your knowledge of how to solve it on smaller ones
+- it's a top dowm view to take the big problem, do a bit of reduction and get to a slightly smaller problem and continue this way until you get to a really small problem
+- it embodies the proof technique of Mathematical Induction
+- Eg: Towers of Hanoi
 
 
 ### 1.2 Asymptotics and Divide-and-Conquer
