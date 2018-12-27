@@ -64,6 +64,21 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
                 j <- j-1
     ```
 
+#### Recurrence Relations
+- How can we analyze the running time of an algorithm that is recursive
+- tool: recurrence relations
+- the running time of an algorithm is always expressed in terms of the length of the input: n
+- T(n) = # operations required to solve a tower with n disks
+- T(n-1) = # operations required to solve a tower with n-1 disks
+- rewrite T(n) using T(n-1)
+- Eg: Towers of Hanoi recurrence:
+    - T(n) = 2T(n-1) + 1 ①
+    - then expand this recurrence out through telescoping:
+        - T(n-1) = 2T(n-2) + 1 ②
+        - so T(n) = 4T(n-2) + 3
+        - and T(n) = 8T(n-3) + 7
+        - generalize => $T(n) = 2^kT(n-k) + (2^k - 1)$
+
 
 
 
