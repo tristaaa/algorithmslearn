@@ -56,7 +56,12 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
         - continue like this, take the number 4 and move it leftwards until it's in the right place, and so on
     - pseudocode:
     ```python
-
+    insertion-sort A:
+        for i <- 1 to length(A)
+            J <- i
+            while j>0 and A[j-1] > A[j]:
+                swap A[j] and A[j-1]
+                j <- j-1
     ```
 
 
