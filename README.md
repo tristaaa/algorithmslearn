@@ -77,7 +77,8 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
         - T(n-1) = 2T(n-2) + 1 ②
         - so T(n) = 4T(n-2) + 3
         - and T(n) = 8T(n-3) + 7
-        - generalize => $T(n) = 2^kT(n-k) + (2^k - 1)$
+        - generalize => 
+        $$ T(n) = 2^kT(n-k) + (2^k - 1) $$
 
 
 
