@@ -71,7 +71,7 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
 - T(n) = # operations required to solve a tower with n disks
 - T(n-1) = # operations required to solve a tower with n-1 disks
 - rewrite T(n) using T(n-1)
-- Eg: Towers of Hanoi recurrence:
+- Eg: Towers of Hanoi recurrence
     - T(n) = 2T(n-1) + 1 ①
     - then expand this recurrence out through telescoping:
         - T(n-1) = 2T(n-2) + 1 ②
@@ -80,6 +80,14 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
         - generalize: <img src="https://latex.codecogs.com/gif.latex?T(n)&space;=&space;2^kT(n-k)&space;&plus;&space;(2^k&space;-&space;1)" title="T(n) = 2^kT(n-k) + (2^k - 1)"/><br>
         - and T(1) = 1 (by substituding k using n-1)
         - so <img src="https://latex.codecogs.com/gif.latex?T(n)&space;=&space;2^n&space;-&space;1" title="T(n) = 2^n - 1"/><br>
+- Eg: Insertion Sort(not recursive)
+    - we can analyze how long wach iteration of the loop takes
+    - Key observation:
+        - at the k-th iteration of the loop, the first k-1 elements of the array are in sorted order
+    - First iteration of the loop: 0 swap required(since first element is trivially sorted)
+    - Last iteration of the loop: at most n-1 swaps required 
+    - In general, k-th iteration of the loop: at most k-1 swaps required
+    - so the total number of swaps = <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^ni&space;-&space;1" title="\sum_{i=0}^ni - 1" /> = <img src="https://latex.codecogs.com/gif.latex?\frac{n(n-1)}{2}" title="\frac{n(n-1)}{2}" />
 
 
 
