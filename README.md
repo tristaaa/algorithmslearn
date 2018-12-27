@@ -34,7 +34,7 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
 - Eg(top down): Towers of Hanoi
     - in a temple in Thailand, there are three pegs
     - one of the pegs contains 64 disks of decresing size(largest disk at the bottom)
-    - the Buddist monks try to move all the disks on one peg to another, say the third peg
+    - the Buddhist monks try to move all the disks on one peg to another, say the third peg
     - Rules: can only move one disk at a time & can never put a bigger disk on the top of a smaller one
 
     - Solution: 
@@ -46,7 +46,18 @@ Most From Edx Course Named **Algorithm Design and Analysis** Taught by Sampath K
         - Move the n-1 disks from rod B to rod C
             - reuse the procedure of moving the 63 disks from peg one to peg two
 - Eg(bottom up): Insertion Sort
-    - 
+    - ![insertion sort](https://github.com/tristaaa/algorithmslearn/blob/master/pics/insertion%20sort.png)
+    - want to put the numbers in ascending order
+    - at first, we have the array consisting of the numbers 5,2,4,6,1,3
+    - we're gonna solve small problems and slowly increase the size of the problems
+        - which is to sort every number to the left of the red line
+        - initially, we put the red line just after the first number(of course, the left part is sorted)
+        - then move the red line one step to the right, number 5,2 isn't in sorted order, and we can take the number 2 and move ot until it's in the right place
+        - continue like this, take the number 4 and move it leftwards until it's in the right place, and so on
+    - pseudocode:
+    ```python
+
+    ```
 
 
 
